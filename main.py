@@ -17,6 +17,6 @@ df = pd.DataFrame({
 st.header("Dữ liệu học sinh")
 st.dataframe(df)
 
-# Tạo biểu đồ đơn giản
-st.header("Biểu đồ điểm")
-st.bar_chart(df.set_index('Tên'))
+# # Tạo biểu đồ đơn giản
+# st.header("Biểu đồ điểm")
+# st.bar_chart(df.set_index('Tên'))
